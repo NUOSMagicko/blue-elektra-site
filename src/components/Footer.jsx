@@ -31,7 +31,7 @@ const Footer = () => {
     <StyledFooter>
       <div>
         {" "}
-        <Description>Blue Elektra's Gmail </Description>
+        {/* <Description>Blue Elektra's Gmail </Description> */}
         <Description>
           <Icon>
             <FaEnvelope />
@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
       <div>
         {" "}
-        <Description>Blue Elektra's Phone </Description>
+        {/* <Description>Blue Elektra's Phone </Description> */}
         <Description>
           <Icon>
             <FaPhone />
