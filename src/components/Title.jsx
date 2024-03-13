@@ -23,7 +23,7 @@ const Title = ({ isMobileNavVisible }) => {
     <StyledTitle className={isMobileNavVisible ? "hide" : ""}>
       <TypeAnimation
         sequence={[
-          "Blue Elektra Restaurant", 
+          "Blue Elektra", 
           1000, 
           "", 
           1000, 

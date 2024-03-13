@@ -40,7 +40,7 @@ const HeroSection = ({isMobileNavVisible}) => {
     <StyledHeroSection>
       <Title isMobileNavVisible={isMobileNavVisible} />
       <Description isMobileNavVisible={isMobileNavVisible}>
-  Discover Blue Electricka's culinary innovation amidst a neon glow. Our menu transforms dining into a sensory journey.
+  Discover Blue Elecktra's culinary innovation amidst a neon glow. Our menu transforms dining into a sensory journey.
 </Description>
 <Description isMobileNavVisible={isMobileNavVisible}>
   Experience the vibrant fusion of flavor and ambiance at Blue Electricka. Book now for a memorable dining adventure.
