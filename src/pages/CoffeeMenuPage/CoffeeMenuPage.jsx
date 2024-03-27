@@ -151,12 +151,6 @@ function MenuComponent() {
           </div>
           {/* Repeat for each item */}
         </section>
-        <section>
-          <h2>Desserts</h2>
-          {/* <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon" /> */}
-          <p>Desert Menu Coming Soon</p>
-          {/* Desserts items */}
-        </section>
       </main>
       <hr className={styles.bottomLine} />
       <footer>
