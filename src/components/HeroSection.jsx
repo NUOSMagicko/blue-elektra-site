@@ -43,9 +43,6 @@ const HeroSection = ({isMobileNavVisible}) => {
       <Description isMobileNavVisible={isMobileNavVisible}>
   Discover Blue & Blue's culinary innovation amidst a neon glow. Our menu transforms dining into a sensory journey.
 </Description>
-<Description isMobileNavVisible={isMobileNavVisible}>
-  Experience the vibrant fusion of flavor and ambiance at Blue & Brew. Book now for a memorable dining adventure.
-</Description>
 <NavigationButton isMobileNavVisible={isMobileNavVisible} path={"coffeemenu"}>View Coffee Menu</NavigationButton>
     </StyledHeroSection>
   );
