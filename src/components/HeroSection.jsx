@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Title from "./Title";
 import Description from "./Description";
 import mainBackground from "../assets/images/blue_electricka_bg_v1.jpg";
+import NavigationButton from "./NavigationButton";
 
 
 const StyledHeroSection = styled.div`
@@ -13,11 +14,11 @@ const StyledHeroSection = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url(${mainBackground});
+  /* background-image: url(${mainBackground}); */
   background-size: cover; 
   background-position: center; 
   text-align: center;
-  position: relative; 
+  /* position: relative; 
   &:before {
     content: "";
     position: absolute;
@@ -32,7 +33,7 @@ const StyledHeroSection = styled.div`
       0.5
     );
     z-index: 0;
-  }
+  } */
 `;
 
 const HeroSection = ({isMobileNavVisible}) => {
@@ -40,12 +41,12 @@ const HeroSection = ({isMobileNavVisible}) => {
     <StyledHeroSection>
       <Title isMobileNavVisible={isMobileNavVisible} />
       <Description isMobileNavVisible={isMobileNavVisible}>
-  Discover Blue Elecktra's culinary innovation amidst a neon glow. Our menu transforms dining into a sensory journey.
+  Discover Blue & Blue's culinary innovation amidst a neon glow. Our menu transforms dining into a sensory journey.
 </Description>
 <Description isMobileNavVisible={isMobileNavVisible}>
-  Experience the vibrant fusion of flavor and ambiance at Blue Electricka. Book now for a memorable dining adventure.
+  Experience the vibrant fusion of flavor and ambiance at Blue & Brew. Book now for a memorable dining adventure.
 </Description>
-
+<NavigationButton isMobileNavVisible={isMobileNavVisible} path={"coffeemenu"}>View Coffee Menu</NavigationButton>
     </StyledHeroSection>
   );
 };

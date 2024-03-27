@@ -1,0 +1,126 @@
+/* MenuComponent.module.css */
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://images.unsplash.com/photo-1447933601403-0c6688de566e?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTI1NjIwMzE&ixlib=rb-1.2.1&q=85');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    padding: 20px;
+    position: relative; 
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(
+      0,
+      0,
+      0,
+      0.3
+    );
+    z-index: -1;
+  }
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+}
+
+h1, h2, p,b {
+    text-align: center;
+}
+
+.menu {
+    border-radius: 35px;
+    margin-top: 5vh;
+    width: 80%;
+    margin-bottom: 5vh;
+    background-color: #A7C7E7;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    max-width: 500px;
+    overflow-y: scroll; /* Updated from auto to scroll */
+    max-height: 85vh; /* Set a max-height to ensure scrolling happens */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer/Edge */
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    height: 2px;
+    background-color: #3E2723;
+    border-color: #3E2723;
+}
+
+.bottomLine { /* Changed from .bottom-line to .bottomLine */
+    margin-top: 25px;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor, .dessert { /* No change needed here since they are not kebab-case */
+    text-align: left;
+    width: 75%;
+}
+
+.price { /* No change needed */
+    text-align: right;
+    width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+.address { /* No change needed */
+    margin-bottom: 5px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #3E2723;
+}
+
+a:active {
+    color: #3E2723;
+}

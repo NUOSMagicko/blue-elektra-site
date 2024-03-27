@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import logoImage from '../assets/images/blue_elektra_logo_v4.png'; 
+import logoImage from '../assets/images/bluebrewLogo.png'; 
 
 const StyledLogo = styled.img`
   color: white;
