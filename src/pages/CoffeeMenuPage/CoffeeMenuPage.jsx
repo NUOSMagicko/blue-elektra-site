@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './CoffeeMenu.module.css'; // Importing CSS as a module
 
-function MenuComponent() {
+const CoffeeMenu = () => {
   return (
     <div className={styles.menu}>
       <header>
         <h1>Brew & Blue</h1>
-        <p className={styles.established}>Est. 2020</p>
+        <p className={styles.established}>Est. 2024</p>
       </header>
       <hr />
       <main>
@@ -154,10 +154,10 @@ function MenuComponent() {
       </main>
       <hr className={styles.bottomLine} />
       <footer>
-        <p className={styles.address}>Enjoy your time at <b>Brew & Blue</b> ^^</p>
+        <p className={styles.address}>Enjoy your time at <b className={styles.footerBold} >Brew & Blue</b> ^^</p>
       </footer>
     </div>
   );
 }
 
-export default MenuComponent;
+export default CoffeeMenu;

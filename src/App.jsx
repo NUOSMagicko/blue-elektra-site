@@ -5,8 +5,8 @@ import {
   Route,
 } from "react-router-dom";
 import { NavProvider } from "./context/NavContext"; // Make sure the path is correct
-import LandingPage from "./pages/LandingPage"; // Adjust the import path based on your file structure
 import CoffeeMenuPage from "./pages/CoffeeMenuPage/CoffeeMenuPage";
+import LandingPage from "./pages/LandingPage/LandingPage";
 
 function App() {
   return (
