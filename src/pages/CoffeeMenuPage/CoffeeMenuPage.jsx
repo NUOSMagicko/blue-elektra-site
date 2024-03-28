@@ -5,7 +5,7 @@ function MenuComponent() {
   return (
     <div className={styles.menu}>
       <header>
-        <h1>Blue & Brew</h1>
+        <h1>Brew & Blue</h1>
         <p className={styles.established}>Est. 2020</p>
       </header>
       <hr />
@@ -154,7 +154,7 @@ function MenuComponent() {
       </main>
       <hr className={styles.bottomLine} />
       <footer>
-        <p className={styles.address}>Enjoy your time at <b>Blue & Brew</b> ^^</p>
+        <p className={styles.address}>Enjoy your time at <b>Brew & Blue</b> ^^</p>
       </footer>
     </div>
   );
