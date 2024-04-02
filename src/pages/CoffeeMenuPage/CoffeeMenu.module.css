@@ -9,7 +9,7 @@ h1, h2, .footerBold {
     box-sizing: border-box;
 }
 body {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     background-image: url('https://images.unsplash.com/photo-1447933601403-0c6688de566e?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTI1NjIwMzE&ixlib=rb-1.2.1&q=85');
     background-size: cover;
     background-position: center;
@@ -151,7 +151,7 @@ a:active {
     }
 
     .menu {
-        border:2px solid white;
+        /* border:2px solid white; */
         padding: 20px; /* Adjust padding for mobile */
         margin-top: 1vh;
         margin-bottom: 1vh;
