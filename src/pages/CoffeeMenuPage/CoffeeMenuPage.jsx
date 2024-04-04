@@ -71,6 +71,24 @@ const CoffeeMenu = () => {
           {/* Repeat for each item */}
         </section>
         <section>
+          <h2>Milk Tea</h2>
+          {/* <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon" /> */}
+          <div className={styles.item}>
+            <p className={styles.flavor}><b>Menu</b></p><p className={styles.price}><b>Price</b></p>
+          </div>
+          {/* ----- */}
+          <div className={styles.item}>
+            <p className={styles.flavor}>Black Pearl Thai Tea</p><p className={styles.price}>105</p>
+          </div>
+          <div className={styles.item}>
+            <p className={styles.flavor}>Black Pearl Milk Tea</p><p className={styles.price}>105</p>
+          </div>
+          <div className={styles.item}>
+            <p className={styles.flavor}>Black Pearl Sugar Tea</p><p className={styles.price}>110</p>
+          </div>
+          {/* Repeat for each item */}
+        </section>
+        <section>
           <h2>Hot Non-Coffee</h2>
           {/* <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon" /> */}
           <div className={styles.item}>

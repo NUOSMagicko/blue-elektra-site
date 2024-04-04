@@ -41,7 +41,7 @@ const HeroSection = ({isMobileNavVisible}) => {
     <StyledHeroSection>
       <Title isMobileNavVisible={isMobileNavVisible} />
       <Description isMobileNavVisible={isMobileNavVisible}>
-  Discover Blue & Blue's culinary innovation amidst a neon glow. Our menu transforms dining into a sensory journey.
+  Discover Brew & Blue's culinary innovation amidst a neon glow. Our menu transforms dining into a sensory journey.
 </Description>
 <NavigationButton isMobileNavVisible={isMobileNavVisible} path={"coffeemenu"}>View Coffee Menu</NavigationButton>
     </StyledHeroSection>
